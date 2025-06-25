@@ -47,5 +47,8 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 
+# Static files
+STATIC_PATHS = ['CNAME']
+
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
