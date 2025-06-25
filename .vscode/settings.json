@@ -1,0 +1,13 @@
+{
+    "python.defaultInterpreter": "/Users/steve/.local/share/mise/installs/python/3.13.1/bin/python",
+    "python.pythonPath": "/Users/steve/.local/share/mise/installs/python/3.13.1/bin/python",
+    "python.terminal.activateEnvironment": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.sortImports.args": ["--profile", "black"],
+    "files.associations": {
+        "*.md": "markdown"
+    }
+}

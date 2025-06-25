@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="home">
+    {% if SOCIAL %}
+    <div class="social-links">
+        {% for name, link in SOCIAL %}
+        <a href="{{ link }}"{% if link.startswith('http') %} target="_blank" rel="noopener"{% endif %}>
+            {% if name == "LinkedIn" %}
+                <i class="fab fa-linkedin"></i>
+            {% elif name == "GitHub" %}
+                <i class="fab fa-github"></i>
+            {% elif name == "Email" %}
+                <i class="fas fa-envelope"></i>
+            {% endif %}
+            {{ name }}
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+    <h1>{{ SITENAME }}</h1>
+    
+    {% for page in pages %}
+        {% if page.slug == 'index' %}
+            <div class="content">
+                {{ page.content }}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}

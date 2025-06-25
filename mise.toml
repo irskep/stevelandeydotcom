@@ -1,0 +1,26 @@
+[tools]
+python = "3.13"
+
+[tasks.html]
+description = "Generate the web site"
+run = "uv run pelican content -o output -s pelicanconf.py"
+
+[tasks.clean]
+description = "Remove the generated files"
+run = "[ ! -d output ] || rm -rf output"
+
+[tasks.regenerate]
+description = "Regenerate files upon modification"
+run = "uv run pelican -r content -o output -s pelicanconf.py"
+
+[tasks.serve]
+description = "Serve site at http://localhost:8000"
+run = "uv run pelican -l content -o output -s pelicanconf.py"
+
+[tasks.devserver]
+description = "Serve and regenerate together"
+run = "uv run pelican -lr content -o output -s pelicanconf.py"
+
+[tasks.publish]
+description = "Generate using production settings"
+run = "uv run pelican content -o output -s publishconf.py"
