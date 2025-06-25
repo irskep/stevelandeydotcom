@@ -25,10 +25,10 @@ jobs:
       uses: jdx/mise-action@v2
     
     - name: Install dependencies
-      run: uv sync
+      run: mise exec -- uv sync
     
     - name: Build site
-      run: uv run pelican content -s publishconf.py
+      run: mise run publish
     
     - name: Setup Pages
       uses: actions/configure-pages@v4
