@@ -53,6 +53,42 @@ img, iframe { border: 0 }
     --yellow-5: #d29922;
     --yellow-6: #bb8009;
     
+    /* Color Tokens - Purple Scale */
+    --purple-1: #f3e8ff;
+    --purple-2: #e9d5ff;
+    --purple-3: #c4b5fd;
+    --purple-4: #a78bfa;
+    --purple-5: #8b5cf6;
+    --purple-6: #7c3aed;
+    --purple-7: #6d28d9;
+    
+    /* Color Tokens - Red Scale */
+    --red-1: #fef2f2;
+    --red-2: #fecaca;
+    --red-3: #fca5a5;
+    --red-4: #f87171;
+    --red-5: #ef4444;
+    --red-6: #dc2626;
+    --red-7: #b91c1c;
+    
+    /* Color Tokens - Orange Scale */
+    --orange-1: #fff7ed;
+    --orange-2: #fed7aa;
+    --orange-3: #fdba74;
+    --orange-4: #fb923c;
+    --orange-5: #f59e0b;
+    --orange-6: #d97706;
+    --orange-7: #b45309;
+    
+    /* Color Tokens - Teal Scale */
+    --teal-1: #f0fdfa;
+    --teal-2: #ccfbf1;
+    --teal-3: #99f6e4;
+    --teal-4: #5eead4;
+    --teal-5: #2dd4bf;
+    --teal-6: #14b8a6;
+    --teal-7: #0f766e;
+    
     /* Semantic Color Mappings */
     --background-primary: var(--gray-13);
     --background-secondary: var(--gray-12);
@@ -325,40 +361,42 @@ body main .content ul:first-of-type li p:nth-child(2) {
     margin-right: 0;
 }
 
+/* Platform group - cool hues (blues/teals) */
 .tag.web {
-    background-color: color-mix(in srgb, var(--blue-5) 15%, transparent);
+    background-color: color-mix(in srgb, var(--blue-5) 20%, transparent);
     color: var(--blue-4);
-    border: 1px solid color-mix(in srgb, var(--blue-5) 25%, transparent);
+    border: 1px solid color-mix(in srgb, var(--blue-5) 30%, transparent);
 }
 
 .tag.ios {
-    background-color: color-mix(in srgb, var(--gray-6) 15%, transparent);
-    color: var(--gray-5);
-    border: 1px solid color-mix(in srgb, var(--gray-6) 25%, transparent);
+    background-color: color-mix(in srgb, var(--teal-5) 20%, transparent);
+    color: var(--teal-4);
+    border: 1px solid color-mix(in srgb, var(--teal-5) 30%, transparent);
 }
 
 .tag.mac {
-    background-color: color-mix(in srgb, var(--gray-6) 15%, transparent);
-    color: var(--gray-5);
-    border: 1px solid color-mix(in srgb, var(--gray-6) 25%, transparent);
+    background-color: color-mix(in srgb, var(--blue-6) 20%, transparent);
+    color: var(--blue-4);
+    border: 1px solid color-mix(in srgb, var(--blue-6) 30%, transparent);
 }
 
+/* Type group - warm hues (oranges/reds/purples) */
 .tag.tool {
-    background-color: color-mix(in srgb, var(--green-5) 15%, transparent);
-    color: var(--green-3);
-    border: 1px solid color-mix(in srgb, var(--green-5) 25%, transparent);
+    background-color: color-mix(in srgb, var(--orange-5) 20%, transparent);
+    color: var(--orange-4);
+    border: 1px solid color-mix(in srgb, var(--orange-5) 30%, transparent);
 }
 
 .tag.app {
-    background-color: color-mix(in srgb, var(--yellow-5) 15%, transparent);
-    color: var(--yellow-3);
-    border: 1px solid color-mix(in srgb, var(--yellow-5) 25%, transparent);
+    background-color: color-mix(in srgb, var(--red-5) 20%, transparent);
+    color: var(--red-4);
+    border: 1px solid color-mix(in srgb, var(--red-5) 30%, transparent);
 }
 
 .tag.game {
-    background-color: color-mix(in srgb, var(--blue-7) 15%, transparent);
-    color: var(--blue-4);
-    border: 1px solid color-mix(in srgb, var(--blue-7) 25%, transparent);
+    background-color: color-mix(in srgb, var(--purple-5) 20%, transparent);
+    color: var(--purple-3);
+    border: 1px solid color-mix(in srgb, var(--purple-5) 30%, transparent);
 }
 
 /* Responsive Design */
