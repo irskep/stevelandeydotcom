@@ -219,8 +219,8 @@ main {
     opacity: 0.8;
 }
 
-/* Main Heading */
-.home h1 {
+/* Main Heading - First h1 on every page */
+.home h1:first-of-type {
     font-size: var(--font-size-5xl);
     font-weight: var(--font-weight-bold);
     line-height: 1.1;
@@ -231,6 +231,7 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: -0.025em;
+    text-align: center;
 }
 
 /* Content Section */
@@ -276,8 +277,8 @@ main {
     color: var(--blue-3);
 }
 
-/* Projects Grid - be more specific to override defaults */
-body main .content ul:first-of-type {
+/* Projects Grid - specific to home page only */
+.page-index .content ul:first-of-type {
     margin: var(--space-8) 0;
     margin-left: 0;
     padding-left: 0;
@@ -287,7 +288,7 @@ body main .content ul:first-of-type {
     gap: var(--space-4);
 }
 
-body main .content ul:first-of-type li {
+.page-index .content ul:first-of-type li {
     background: var(--surface-primary);
     border: 1px solid var(--gray-9);
     border-radius: var(--border-radius-md);
@@ -302,7 +303,7 @@ body main .content ul:first-of-type li {
     min-height: 0;
 }
 
-body main .content ul:first-of-type li:hover {
+.page-index .content ul:first-of-type li:hover {
     background: var(--surface-secondary);
     border-color: var(--gray-8);
     transform: translateY(-2px);
@@ -432,7 +433,7 @@ body main .content ul:first-of-type li p:nth-child(2) {
         margin-bottom: var(--space-12);
     }
     
-    body main .content ul:first-of-type {
+    .page-index .content ul:first-of-type {
         grid-template-columns: 1fr;
         gap: var(--space-3);
     }

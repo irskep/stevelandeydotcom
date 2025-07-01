@@ -1,7 +1,7 @@
 Title: Home
 Slug: index
 
-# Welcome
+# Steve Landey
 
 I work on developer tools and frontend frameworks at Descript. I'm passionate about creating great developer experiences and shipping great products.
 

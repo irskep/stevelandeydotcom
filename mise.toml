@@ -1,6 +1,7 @@
 [tools]
 python = "3.13"
 uv = "latest"
+typst = "latest"
 
 [tasks.html]
 description = "Generate the web site"
@@ -24,4 +25,20 @@ run = "uv run pelican -lr content -o output -s pelicanconf.py"
 
 [tasks.publish]
 description = "Generate using production settings"
-run = "uv run pelican content -o output -s publishconf.py"
+run = "mise run resume:all && uv run pelican content -o output -s publishconf.py"
+
+[tasks."resume:html"]
+description = "Generate HTML resume"
+run = "cd resume && uv run python yaml2html.py -f resume.yaml -o resume.md && mv resume.md ../content/pages/"
+
+[tasks."resume:json"]
+description = "Generate JSON resume"
+run = "cd resume && uv run python yaml2json.py -f resume.yaml -o resume.json && mkdir -p ../content/downloads && mv resume.json ../content/downloads/"
+
+[tasks."resume:pdf"]
+description = "Generate PDF resume"
+run = "cd resume && typst compile resume.typ && mkdir -p ../content/downloads && mv resume.pdf ../content/downloads/"
+
+[tasks."resume:all"]
+description = "Generate all resume formats"
+run = "mise run resume:html && mise run resume:json && mise run resume:pdf"

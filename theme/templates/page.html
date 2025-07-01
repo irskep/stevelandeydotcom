@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="home page-index">
+<div class="home page-{{ page.slug }}">
     {% if SOCIAL %}
     <div class="social-links">
         {% for name, link in SOCIAL %}
@@ -23,12 +23,8 @@
     </div>
     {% endif %}
     
-    {% for page in pages %}
-        {% if page.slug == 'index' %}
-            <div class="content">
-                {{ page.content }}
-            </div>
-        {% endif %}
-    {% endfor %}
+    <div class="content">
+        {{ page.content }}
+    </div>
 </div>
 {% endblock %}
