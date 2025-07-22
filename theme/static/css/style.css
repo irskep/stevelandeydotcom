@@ -98,8 +98,8 @@ img, iframe { border: 0 }
     
     /* Text Colors */
     --text-primary: var(--gray-1);
-    --text-secondary: var(--gray-6);
-    --text-muted: var(--gray-7);
+    --text-secondary: var(--gray-4);
+    --text-muted: var(--gray-5);
     
     /* Accent Colors */
     --accent-primary: var(--blue-5);
@@ -156,6 +156,10 @@ img, iframe { border: 0 }
 }
 
 /* Base Styles */
+html {
+    background: var(--background-primary);
+}
+
 body {
     font-family: var(--font-family);
     font-size: var(--font-size-base);

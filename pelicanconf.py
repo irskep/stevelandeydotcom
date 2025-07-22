@@ -52,5 +52,9 @@ MARKDOWN = {
 # Static files
 STATIC_PATHS = ["CNAME", "downloads"]
 
+# Custom URL structure
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

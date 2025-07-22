@@ -7,6 +7,12 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
 
 # Projects
 
+- **[Tools for Agents](/toolsforagents/)**
+  
+    Developer tools for AI-assisted coding workflows
+    
+    <span class="tag tool">tool</span>
+
 - **[Locheck](https://github.com/Asana/locheck)**
   
     Localization linter for iOS and Android
