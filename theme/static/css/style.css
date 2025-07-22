@@ -191,6 +191,7 @@ main {
 /* Social Links - Top Navigation */
 .social-links {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--space-6);
     justify-content: center;
     margin-bottom: var(--space-12);
@@ -280,8 +281,27 @@ main {
     color: var(--blue-3);
 }
 
-/* Projects Grid - specific to home page only */
-.page-index .content ul:first-of-type {
+/* Blog section - deterministic targeting */
+.marker-blog + ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.marker-blog + ul li p {
+    margin-top: 0;
+}
+
+.marker-blog + ul li p:first-child {
+    margin-bottom: 0;
+}
+
+.marker-blog + ul li p:nth-child(2) {
+    font-size: var(--font-size-sm);
+}
+
+/* Projects Grid - deterministic targeting */
+.marker-projects + ul {
     margin: var(--space-8) 0;
     margin-left: 0;
     padding-left: 0;
@@ -291,7 +311,7 @@ main {
     gap: var(--space-4);
 }
 
-.page-index .content ul:first-of-type li {
+.marker-projects + ul li {
     background: var(--surface-primary);
     border: 1px solid var(--gray-9);
     border-radius: var(--border-radius-md);
@@ -306,20 +326,20 @@ main {
     min-height: 0;
 }
 
-.page-index .content ul:first-of-type li:hover {
+.marker-projects + ul li:hover {
     background: var(--surface-secondary);
     border-color: var(--gray-8);
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
 }
 
-body main .content ul:first-of-type li strong {
+.marker-projects + ul li strong {
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-semibold);
     line-height: 1.3;
 }
 
-body main .content ul:first-of-type li strong a {
+.marker-projects + ul li strong a {
     color: var(--accent-primary);
     text-decoration: underline;
     text-decoration-color: color-mix(in srgb, var(--accent-primary) 50%, transparent);
@@ -327,17 +347,17 @@ body main .content ul:first-of-type li strong a {
     transition: all var(--transition-fast);
 }
 
-body main .content ul:first-of-type li strong a:visited {
+.marker-projects + ul li strong a:visited {
     color: var(--blue-4);
     text-decoration-color: color-mix(in srgb, var(--blue-4) 50%, transparent);
 }
 
-body main .content ul:first-of-type li strong a:hover {
+.marker-projects + ul li strong a:hover {
     color: var(--blue-3);
     text-decoration-color: var(--blue-3);
 }
 
-body main .content ul:first-of-type li p {
+.marker-projects + ul li p {
     margin: 0;
     font-size: var(--font-size-sm);
     color: var(--text-secondary);
@@ -345,7 +365,7 @@ body main .content ul:first-of-type li p {
     flex-grow: 0;
 }
 
-body main .content ul:first-of-type li p:nth-child(2) {
+.marker-projects + ul li p:nth-child(2) {
     flex-grow: 1;
 }
 
@@ -436,7 +456,7 @@ body main .content ul:first-of-type li p:nth-child(2) {
         margin-bottom: var(--space-12);
     }
     
-    .page-index .content ul:first-of-type {
+    .marker-projects + ul {
         grid-template-columns: 1fr;
         gap: var(--space-3);
     }
@@ -444,8 +464,6 @@ body main .content ul:first-of-type li p:nth-child(2) {
 
 @media (max-width: 480px) {
     .social-links {
-        flex-direction: column;
-        align-items: center;
         gap: var(--space-3);
     }
     

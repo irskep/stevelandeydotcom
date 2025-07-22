@@ -5,7 +5,17 @@ Slug: index
 
 I work on developer tools and frontend frameworks at Descript. I'm passionate about creating great developer experiences and shipping great products.
 
+# Blog
+
+<div class="marker-blog"></div>
+
+- **[Getting Good at Coding with Agents](https://blog.steveasleep.com/getting-good-at-coding-with-agents)**
+  
+    Treating AI-assisted coding as a learnable skill, with specific techniques for practice and improvement
+
 # Projects
+
+<div class="marker-projects"></div>
 
 - **[Tools for Agents](/toolsforagents/)**
   
