@@ -3,7 +3,7 @@ Slug: toolsforagents
 
 # Tools for Agents
 
-I’ve created a few development tools streamline AI-assisted coding workflows.
+I’ve created a few development tools to streamline AI-assisted coding workflows.
 
 ## autowt
 
