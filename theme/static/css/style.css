@@ -227,7 +227,6 @@ main {
 .home h1:first-of-type {
     font-size: var(--font-size-5xl);
     font-weight: var(--font-weight-bold);
-    line-height: 1.1;
     color: var(--text-primary);
     margin-bottom: var(--space-8);
     background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-primary) 100%);
