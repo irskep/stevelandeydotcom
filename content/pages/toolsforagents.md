@@ -1,5 +1,6 @@
 Title: Tools for Agents
 Slug: toolsforagents
+Summary: Development tools to streamline AI-assisted coding workflows - autowt for git worktrees, cimonitor for CI debugging, and persistproc for process management.
 
 # Tools for Agents
 

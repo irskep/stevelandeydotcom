@@ -4,6 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    
+    <!-- OpenGraph / Social Media Meta Tags -->
+    <meta property="og:title" content="{% block og_title %}{% if page and page.title %}{{ page.title }}{% else %}{{ SITENAME }}{% endif %}{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{% if page and page.summary %}{{ page.summary|striptags }}{% else %}Developer tools and frontend frameworks at Descript. Passionate about creating great developer experiences.{% endif %}{% endblock %}">
+    <meta property="og:type" content="{% block og_type %}website{% endblock %}">
+    <meta property="og:url" content="{% block og_url %}{{ SITEURL }}{% if page %}{{ page.url }}{% endif %}{% endblock %}">
+    <meta property="og:site_name" content="{{ SITENAME }}">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% block twitter_title %}{% if page and page.title %}{{ page.title }}{% else %}{{ SITENAME }}{% endif %}{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}{% if page and page.summary %}{{ page.summary|striptags }}{% else %}Developer tools and frontend frameworks at Descript. Passionate about creating great developer experiences.{% endif %}{% endblock %}">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
