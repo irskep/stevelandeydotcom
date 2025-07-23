@@ -3,6 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% block meta_description %}{% if page and page.summary %}{{ page.summary|striptags }}{% else %}Developer tools and frontend frameworks at Descript. Passionate about creating great developer experiences.{% endif %}{% endblock %}">
+    <meta name="author" content="{{ AUTHOR }}">
+    <meta name="theme-color" content="#0d1117">
+    <link rel="canonical" href="{% block canonical %}{{ SITEURL }}{% if page %}{{ page.url }}{% endif %}{% endblock %}">
+    
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
     
     <!-- OpenGraph / Social Media Meta Tags -->
