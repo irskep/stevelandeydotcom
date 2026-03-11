@@ -28,7 +28,7 @@ SOCIAL = (
     ("Home", "/"),
     ("GitHub", "https://github.com/irskep"),
     ("LinkedIn", "https://linkedin.com/in/stevelandey"),
-    ("Resume", "/pages/resume.html"),
+    ("Resume", "https://steveasleep.com/resume.html"),
     ("Email", "mailto:steve@stevelandey.com"),
 )
 
@@ -50,7 +50,7 @@ MARKDOWN = {
 }
 
 # Static files
-STATIC_PATHS = ["CNAME", "downloads"]
+STATIC_PATHS = ["CNAME"]
 
 # Custom URL structure
 PAGE_URL = '{slug}/'
