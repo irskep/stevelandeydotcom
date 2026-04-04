@@ -9,17 +9,33 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
 
 <div class="marker-blog"></div>
 
-- **[Getting Good at Coding with Agents](https://blog.steveasleep.com/getting-good-at-coding-with-agents)**
-  
-    Treating AI-assisted coding as a learnable skill, with specific techniques for practice and improvement
+- **[Dependicus: a new tool for monorepo dependency governance](https://www.descript.com/blog/article/dependicus-monorepo-dependency-governance)**
+
+    Manage monorepo dependencies with dashboards and tickets, not pull requests
 
 - **[Oscillator Drum Jams is a web app now](https://blog.steveasleep.com/oscillator-drum-jams-is-a-web-app-now)**
 
     Faced with an iOS 26 showstopper, I chose to rewrite the whole app for the web
 
+- **[Getting Good at Coding with Agents](https://blog.steveasleep.com/getting-good-at-coding-with-agents)**
+  
+    Treating AI-assisted coding as a learnable skill, with specific techniques for practice and improvement
+
 # Projects
 
 <div class="marker-projects"></div>
+
+- **[autowt](https://steveasleep.com/autowt/)**
+  
+    Git worktree manager for parallel development
+    
+    <span class="tag tool">tool</span>
+
+- **[Dependicus](https://descriptinc.github.io/dependicus/)**
+  
+    Dependency dashboards and tickets for monorepos
+    
+    <span class="tag tool">tool</span>
 
 - **[Tools for Agents](/toolsforagents/)**
   
@@ -32,12 +48,6 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
     Localization linter for iOS and Android
     
     <span class="tag ios">ios</span> <span class="tag tool">tool</span>
-
-- **[Browserboard](https://browserboard.com)**
-  
-    Multiuser whiteboard app
-    
-    <span class="tag web">web</span> <span class="tag app">app</span>
 
 - **[diyband.net](https://diyband.net)**
   
@@ -57,11 +67,17 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
     
     <span class="tag web">web</span> <span class="tag app">app</span>
 
-- **[Oscillator Drum Jams](https://oscillatordrums.com)**
+- **[Oscillator Drum Jams (iOS)](https://oscillatordrums.com)**
   
     iOS drum book companion
     
     <span class="tag ios">ios</span> <span class="tag app">app</span>
+
+- **[Oscillator Drum Jams (web)](https://oscillator.jakewood.net/)**
+  
+    Web-based drum book companion, rewrite of the iOS app
+    
+    <span class="tag web">web</span> <span class="tag app">app</span>
 
 - **[Letterpath](https://irskep.itch.io/letterpath)**
   
