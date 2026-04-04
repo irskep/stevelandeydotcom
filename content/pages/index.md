@@ -9,7 +9,11 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
 
 <div class="marker-blog"></div>
 
-- **[Dependicus: a new tool for monorepo dependency governance](https://www.descript.com/blog/article/dependicus-monorepo-dependency-governance)**
+- **[Nine Months of Multitasking With Git Worktrees and autowt](https://blog.steveasleep.com/nine-months-of-multitasking-with-git-worktrees-and-autowt)**
+
+    I finally wrote a tool I live in all day
+
+- **[Dependicus: A New Tool for Monorepo Dependency Governance](https://www.descript.com/blog/article/dependicus-monorepo-dependency-governance)**
 
     Manage monorepo dependencies with dashboards and tickets, not pull requests
 
@@ -17,7 +21,7 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
 
     Faced with an iOS 26 showstopper, I chose to rewrite the whole app for the web
 
-- **[Getting Good at Coding with Agents](https://blog.steveasleep.com/getting-good-at-coding-with-agents)**
+- **[Getting Good at Coding With Agents](https://blog.steveasleep.com/getting-good-at-coding-with-agents)**
   
     Treating AI-assisted coding as a learnable skill, with specific techniques for practice and improvement
 
@@ -48,6 +52,12 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
     Localization linter for iOS and Android
     
     <span class="tag ios">ios</span> <span class="tag tool">tool</span>
+
+- **[Browserboard](https://write.as/browserboard-blog/)**
+  
+    Multiuser whiteboard app
+    
+    <span class="tag web">web</span> <span class="tag app">app</span>
 
 - **[diyband.net](https://diyband.net)**
   
