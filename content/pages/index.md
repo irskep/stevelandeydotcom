@@ -13,6 +13,10 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
   
     Treating AI-assisted coding as a learnable skill, with specific techniques for practice and improvement
 
+- **[Oscillator Drum Jams is a web app now](https://blog.steveasleep.com/oscillator-drum-jams-is-a-web-app-now)**
+
+    Faced with an iOS 26 showstopper, I chose to rewrite the whole app for the web
+
 # Projects
 
 <div class="marker-projects"></div>
