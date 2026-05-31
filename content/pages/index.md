@@ -47,7 +47,7 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
     
     <span class="tag tool">tool</span>
 
-- **[Tools for Agents](/toolsforagents/)**
+- **[Tools for Agents](toolsforagents/)**
   
     Developer tools for AI-assisted coding workflows
     

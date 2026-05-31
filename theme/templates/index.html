@@ -5,7 +5,13 @@
     {% if SOCIAL %}
     <div class="social-links">
         {% for name, link in SOCIAL %}
-        <a href="{{ link }}"{% if link.startswith('http') %} target="_blank" rel="noopener"{% endif %}>
+        {% set href = link %}
+        {% if not SITEURL and link == "/" %}
+            {% set href = site_root if site_root else "./" %}
+        {% elif not SITEURL and link.startswith("/") %}
+            {% set href = site_root ~ link[1:] %}
+        {% endif %}
+        <a href="{{ href }}"{% if link.startswith('http') %} target="_blank" rel="noopener"{% endif %}>
             {% if name == "Home" %}
                 <i class="fas fa-home"></i>
             {% elif name == "LinkedIn" %}
