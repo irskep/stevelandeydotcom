@@ -288,6 +288,14 @@ main {
     margin-left: 0;
 }
 
+.marker-blog + ul li {
+    margin-bottom: var(--space-8);
+}
+
+.marker-blog + ul li:last-child {
+    margin-bottom: 0;
+}
+
 .marker-blog + ul li p {
     margin-top: 0;
 }

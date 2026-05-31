@@ -9,5 +9,11 @@
     "python.sortImports.args": ["--profile", "black"],
     "files.associations": {
         "*.md": "markdown"
+    },
+    "markdown.format.enabled": false,
+    "[markdown]": {
+        "editor.defaultFormatter": null,
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false
     }
 }

@@ -37,19 +37,13 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
 
 - **[LocalCI](https://steveasleep.com/localci/)**
   
-    Local-first CI runner for agent workflows ([GitHub](https://github.com/irskep/localci))
+    CI-like postcommit checks that run on your own computer
     
     <span class="tag tool">tool</span>
 
 - **[Dependicus](https://descriptinc.github.io/dependicus/)**
   
     Dependency dashboards and tickets for monorepos
-    
-    <span class="tag tool">tool</span>
-
-- **[Tools for Agents](toolsforagents/)**
-  
-    Developer tools for AI-assisted coding workflows
     
     <span class="tag tool">tool</span>
 

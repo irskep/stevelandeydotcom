@@ -1,5 +1,5 @@
 [tools]
-"github:irskep/localci" = "0.2.4"
+"github:irskep/localci" = "0.2.6"
 python = "3.13"
 uv = "latest"
 
