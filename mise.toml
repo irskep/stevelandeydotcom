@@ -1,6 +1,27 @@
 [tools]
+"github:irskep/localci" = "0.2.4"
 python = "3.13"
 uv = "latest"
+
+[tasks."localci:setup"]
+description = "Install tools and dependencies for LocalCI runs"
+run = [
+  "mise install",
+  "uv sync",
+]
+
+[tasks."localci:build"]
+description = "Build the site and expose output as a LocalCI artifact"
+run = '''
+mise run clean
+mise run html
+
+if [ -n "${LOCALCI_TASK_OUTPUT_DIR:-}" ]; then
+  mkdir -p "$LOCALCI_TASK_OUTPUT_DIR/site"
+  cp -R output/. "$LOCALCI_TASK_OUTPUT_DIR/site/"
+  printf 'Site artifact: %s\n' "$LOCALCI_TASK_OUTPUT_DIR/site/index.html"
+fi
+'''
 
 [tasks.html]
 description = "Generate the web site"
