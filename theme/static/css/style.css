@@ -251,8 +251,13 @@ main {
     font-size: var(--font-size-3xl);
     font-weight: var(--font-weight-semibold);
     color: var(--text-primary);
+    margin-top: var(--space-16);
     margin-bottom: var(--space-6);
     line-height: 1.2;
+}
+
+.content h1:first-of-type {
+    margin-top: 0;
 }
 
 .content p {
