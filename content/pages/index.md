@@ -3,7 +3,7 @@ Slug: index
 
 # Steve Landey
 
-I work on developer tools and frontend frameworks at Descript. I'm passionate about creating great developer experiences and shipping great products.
+Thinking about how we can write better software, faster, with more joy.
 
 # Blog
 
@@ -29,80 +29,42 @@ I work on developer tools and frontend frameworks at Descript. I'm passionate ab
 
 <div class="marker-projects"></div>
 
+## Developer Tools
+
 - **[autowt](https://steveasleep.com/autowt/)**
   
-    Git worktree manager for parallel development
-    
-    <span class="tag tool">tool</span>
+    The missing automation layer for git worktrees.
 
 - **[LocalCI](https://steveasleep.com/localci/)**
-  
-    CI-like postcommit checks that run on your own computer
-    
-    <span class="tag tool">tool</span>
+
+    Async postcommit checks with a slick web UI.
 
 - **[Dependicus](https://descriptinc.github.io/dependicus/)**
   
-    Dependency dashboards and tickets for monorepos
-    
-    <span class="tag tool">tool</span>
+    Dependency dashboards and ticket workflows for monorepo governance.
 
 - **[Locheck](https://github.com/Asana/locheck)**
   
-    Localization linter for iOS and Android
-    
-    <span class="tag ios">ios</span> <span class="tag tool">tool</span>
+    Localization linter for catching iOS and Android string issues before release.
+
+## Websites
 
 - **[Browserboard](https://write.as/browserboard-blog/)**
   
-    Multiuser whiteboard app
-    
-    <span class="tag web">web</span> <span class="tag app">app</span>
+    Multiuser whiteboard app for fast, shared sketching in the browser.
 
-- **[diyband.net](https://diyband.net)**
+- **[This Guitar Pedal Does Not Exist](https://thisguitarpedaldoesnotexist.com/)**
   
-    Free website builder for musicians
-    
-    <span class="tag web">web</span> <span class="tag app">app</span>
-
-- **[djockey](https://steveasleep.com/djockey)**
-  
-    Static site generator for technical writing
-    
-    <span class="tag web">web</span> <span class="tag tool">tool</span>
+    Procedural guitar pedal catalog with generated marketing copy and CSS-built pedal art. [I wrote about how it works](https://blog.steveasleep.com/lets-generate-some-imaginary-guitar-pedals).
 
 - **[namegenerator.band](https://namegenerator.band)**
   
-    Random band name generator
-    
-    <span class="tag web">web</span> <span class="tag app">app</span>
+    _t.o. t.h.e. m.e.a.t._ and _Stop for the Theory_ got their names here.
 
 - **[Oscillator Drum Jams (iOS)](https://oscillatordrums.com)**
   
-    iOS drum book companion
-    
-    <span class="tag ios">ios</span> <span class="tag app">app</span>
+    iOS companion for the Oscillator Drum Jams book.
 
 - **[Oscillator Drum Jams (web)](https://oscillator.jakewood.net/)**
   
-    Web-based drum book companion, rewrite of the iOS app
-    
-    <span class="tag web">web</span> <span class="tag app">app</span>
-
-- **[Letterpath](https://irskep.itch.io/letterpath)**
-  
-    Word game that's also a dungeon crawler
-    
-    <span class="tag web">web</span> <span class="tag game">game</span>
-
-- **[Power-Q](https://irskep.itch.io/power-q)**
-  
-    Pocket-sized roguelike for macOS
-    
-    <span class="tag mac">mac</span> <span class="tag game">game</span>
-
-- **[Vigil@nte](https://irskep.itch.io/vigilante)**
-  
-    Melee combat roguelike
-    
-    <span class="tag web">web</span> <span class="tag game">game</span>
+    Web-based drum book companion and rewrite of the iOS app.

@@ -11,7 +11,7 @@
         {% elif not SITEURL and link.startswith("/") %}
             {% set href = site_root ~ link[1:] %}
         {% endif %}
-        <a href="{{ href }}"{% if link.startswith('http') %} target="_blank" rel="noopener"{% endif %}>
+        <a href="{{ href }}">
             {% if name == "Home" %}
                 <i class="fas fa-home"></i>
             {% elif name == "LinkedIn" %}

@@ -40,8 +40,8 @@ description = "Serve site at http://localhost:8000"
 run = "uv run pelican -l content -o output -s pelicanconf.py"
 
 [tasks.devserver]
-description = "Serve and regenerate together"
-run = "uv run pelican -lr content -o output -s pelicanconf.py"
+description = "Serve and regenerate together at http://localhost:8011"
+run = "uv run pelican -lr content -o output -s pelicanconf.py -p 8011"
 
 [tasks.publish]
 description = "Generate using production settings"
