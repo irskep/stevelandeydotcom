@@ -9,17 +9,25 @@ Thinking about how we can write better software, faster, with more joy.
 
 <div class="marker-blog"></div>
 
-- **[Nine Months of Multitasking With Git Worktrees and autowt](https://blog.steveasleep.com/nine-months-of-multitasking-with-git-worktrees-and-autowt)**
+- **[autowt 0.6: I rewrote it in Go, among other things](https://blog.steveasleep.com/autowt-0-6-i-rewrote-it-in-go-among-other-things)**
+
+    10x speedup and shell integration
+
+- **[It’s really nice having CI running locally](https://blog.steveasleep.com/its-really-nice-having-ci-running-locally)**
+
+    Help, I just can’t stop making new tools!
+
+- **[Nine Months of Multitasking with Git Worktrees and Autowt](https://blog.steveasleep.com/nine-months-of-multitasking-with-git-worktrees-and-autowt)**
 
     I finally wrote a tool I live in all day
+
+- **[Oscillator Drum Jams is a Web App Now](https://blog.steveasleep.com/oscillator-drum-jams-is-a-web-app-now)**
+
+    Faced with an iOS 26 showstopper, I chose to rewrite the whole app for the web
 
 - **[Dependicus: A New Tool for Monorepo Dependency Governance](https://www.descript.com/blog/article/dependicus-monorepo-dependency-governance)**
 
     Manage monorepo dependencies with dashboards and tickets, not pull requests
-
-- **[Oscillator Drum Jams is a web app now](https://blog.steveasleep.com/oscillator-drum-jams-is-a-web-app-now)**
-
-    Faced with an iOS 26 showstopper, I chose to rewrite the whole app for the web
 
 - **[Getting Good at Coding With Agents](https://blog.steveasleep.com/getting-good-at-coding-with-agents)**
   
